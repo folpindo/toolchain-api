@@ -1,0 +1,24 @@
+{
+    "name": "folpindo/toolchain-api",
+    "type": "api",
+    "description": "Tool chain API",
+    "keywords": ["tool chain, api"],
+    "homepage": "http://github.com/folpindo/toolchain-api",
+    "authors": [{
+            "name": "folpindo@gmail.com"
+        }],
+    "require": {
+        "slim/slim": "2.*",
+        "folpindo/observerpattern": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Toolchain": "src",
+            "Service": "services"
+
+        },
+        "psr-4": {
+        }
+    }
+
+}
